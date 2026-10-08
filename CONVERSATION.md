@@ -209,3 +209,41 @@ print(text.upper())  # TODO: Replace text with your string
 ```
 
 What is the method that converts a string to uppercase?
+
+---
+## 2026-10-08 09:12, in .
+
+**Me:** how to sum two numbers in python
+
+**Tutor:**
+
+Summing two numbers in Python is done with the built-in `+` operator.
+
+```python
+def sum_two_numbers(a, b):
+    # TODO: return the sum of a and b
+    pass
+```
+
+What built-in operator performs addition in Python?
+
+---
+## 2026-10-08 09:13, in .
+
+**Me:** how to difference two numbers in python
+
+**Tutor:**
+
+Subtracting one number from another in Python.
+
+```python
+def difference(a, b):
+    # TODO: return the result of a minus b
+    pass
+
+# Example usage (not part of the function)
+result = difference(10, 3)
+print(result)  # Should print 7
+```
+
+What is the operator used for subtraction in Python?
