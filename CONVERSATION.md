@@ -606,3 +606,65 @@ while counter < 5:
 ```
 
 What does the loop variable `counter` equal right after the `break`?
+
+---
+## 2026-10-08 11:52, in .
+
+**Me:** what does break do in a while loop in python
+
+**Tutor:**
+
+A break statement exits the current while loop immediately.
+
+```python
+count = 0
+while True:          # loop runs forever unless we break
+    count += 1
+    if count == 3:
+        break        # exits the loop right here
+    print(count)
+```
+
+What does the break do when count reaches 3?
+
+---
+## 2026-10-08 11:52, in .
+
+**Me:** what does while True do in python
+
+**Tutor:**
+
+A while True loop keeps running forever unless you break out of it.
+
+```python
+# Toy example: count clicks until user types 'stop'
+clicks = 0
+while True:          # runs forever
+    clicks += 1      # TODO: add your metric here
+    user_input = input("Type 'stop' to quit: ")
+    if user_input == 'stop':
+        break        # exits the loop
+```
+
+What keyword stops the loop once the condition is met?
+
+---
+## 2026-10-08 11:53, in .
+
+**Me:** what does break do in a while loop in python
+
+**Tutor:**
+
+A break statement exits the current while loop immediately.
+
+```python
+count = 0
+while True:          # loop forever
+    count += 1
+    if count == 3:
+        break         # exits the loop when count reaches 3
+    print("tick", count)
+# program continues here after the loop
+```
+
+What single keyword stops the loop from running again?
