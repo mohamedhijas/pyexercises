@@ -12,7 +12,7 @@ Written automatically by `tutor.py`. Add your own notes under any entry: what yo
 Reading a CSV file with semicolons as delimiters.
 
 ```python
-import csv
+import cs
 
 def read_semicolon_csv(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -24,3 +24,23 @@ def read_semicolon_csv(file_path):
 ```
 
 What is the name of the parameter that specifies the delimiter in `csv.reader`?
+
+---
+## 2026-10-08 07:57, in .
+
+**Me:** how to i read semicolon csv
+
+**Tutor:**
+
+Reading a CSV with semicolons uses the csv module and the delimiter argument.
+
+```python
+import csv
+
+def read_semicolon_csv(file_path):
+    with open(file_path, newline='') as csvfile:
+        reader = csv.reader(csvfile, delimiter=';')
+        # TODO: iterate over reader and print each row
+```
+
+What is the name of the argument that tells csv.reader to use a semicolon as the delimiter?
