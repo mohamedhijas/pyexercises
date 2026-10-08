@@ -27,7 +27,7 @@ DELIVERABLE
 # 1. In: Input two numbers
 # 2. Process: run adds, subtracts, multiplies, divides
 # 3. Out: disply two numbes of adds, subtracts, multiplies, divides
-# 4. What happens when the second number is zero, and why: learned adds, subtracts, multiplies, divides
+# 4. What happens when the second number is zero, and why: Dividing by zero has no valid answer, and without the if check Python would stop with a ZeroDivisionError.
 
 
 # Your code below
