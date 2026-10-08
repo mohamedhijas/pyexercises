@@ -24,10 +24,10 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What happens when the second number is zero, and why:
+# 1. In: Input two numbers
+# 2. Process: run adds, subtracts, multiplies, divides
+# 3. Out: disply two numbes of adds, subtracts, multiplies, divides
+# 4. What happens when the second number is zero, and why: learned adds, subtracts, multiplies, divides
 
 
 # Your code below
