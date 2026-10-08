@@ -44,3 +44,21 @@ def read_semicolon_csv(file_path):
 ```
 
 What is the name of the argument that tells csv.reader to use a semicolon as the delimiter?
+
+---
+## 2026-10-08 08:10, in .
+
+**Me:** how to print name and age
+
+**Tutor:**
+
+Printing two values means you need to combine them into one string.
+Use the `print()` function and separate the values with a comma.
+
+```python
+def print_name_and_age(name, age):
+    # TODO: combine name and age into one print statement
+    pass
+```
+
+What is the separator between the two values when you use `print(name, age)`?
