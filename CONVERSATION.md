@@ -438,3 +438,94 @@ sorted_numbers = sorted(numbers, reverse=True)
 ```
 
 Which parameter controls the descending order?
+
+---
+## 2026-10-08 10:58, in .
+
+**Me:** what is a dictionary in python
+
+**Tutor:**
+
+A dictionary is a built-in Python container that stores pairs of keys and values, letting you look up a value by its key in constant time.
+
+```python
+# Example: mapping product names to their prices
+prices = {
+    "hat": 19.99,
+    "shoes": 59.50,
+    "bag": 35.00
+}
+
+# TODO: write a function that takes a product name and returns its price
+def look_up_price(product):
+    # TODO: return the price for the given product
+    pass
+```
+
+Which built-in method do you use to retrieve a value from a dictionary when you have the key?
+
+---
+## 2026-10-08 10:58, in .
+
+**Me:** how to get the number of keys in a dictionary in python
+
+**Tutor:**
+
+Counting keys in a dictionary.
+Use the built-in `len()` function on the dictionary.
+
+```python
+# TODO: replace the toy dict with your own
+toy_dict = {"alpha": 100, "beta": 200, "gamma": 300}
+
+# TODO: count the keys
+key_count = len(toy_dict)
+```
+
+What does `len()` return when applied to a dictionary?
+
+---
+## 2026-10-08 10:59, in .
+
+**Me:** how to print adding value inside in a dictionary in python
+
+**Tutor:**
+
+Printing the sum of values inside a dictionary is called **iterating over dictionary values**.
+
+```python
+def sum_dict_values(data):
+    # data is a dict like {'alpha': 10, 'beta': 20}
+    total = 0
+    for value in data.values():  # TODO: what does .values() give you?
+        total += value
+    return total
+
+# Example call
+example = {'alpha': 10, 'beta': 20}
+print(sum_dict_values(example))
+```
+
+What function returns the view of values in a dictionary?
+
+---
+## 2026-10-08 11:10, in .
+
+**Me:** what does pop return when I remove a key from a dictionary in python
+
+**Tutor:**
+
+The pop method returns the value that was removed from the dictionary.
+
+```python
+# Example pattern
+marketing_budget = {"google": 5000, "facebook": 3000, "email": 2000}
+
+# TODO: remove the key "email" and store the returned value
+removed_value = marketing_budget.pop(____, ____)
+
+# TODO: print the removed value
+print(____)
+```
+
+What is the second argument of pop used for?
