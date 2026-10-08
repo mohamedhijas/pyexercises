@@ -31,3 +31,18 @@ DELIVERABLE
 
 
 # Your code below
+sentence = input("Sentence:")
+
+# 1. Uppercase
+print(sentence.upper())
+
+# 2. Lowercase
+print(sentence.lower())
+
+# 3. Title Case (first letter of each word capitalized)
+print(sentence.title())
+
+# 4. Reversed
+print("Reversed:", sentence[::-1])
+
+
