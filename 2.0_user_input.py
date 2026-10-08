@@ -26,10 +26,10 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My two fields, and what I would do with them:
+# 1. In: I ask for two things: a name and an age.
+# 2. Process: Stores two variables name and age and joins them into sentences.
+# 3. Out:one with the name, one with the age, and one combined sentence.
+# 4. My two fields, and what I would do with them: leared stores two variables name and age and joins them into sentences
 
 
 # Your code below
